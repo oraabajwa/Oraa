@@ -1,0 +1,17 @@
+<?php
+// Get ACF field values for the current product
+$my_field1 = get_field('my_field1');
+$my_field2 = get_field('my_field2');
+$my_field3 = get_field('my_field3');
+
+// Display the ACF fields on the product page
+if ($my_field1) {
+  echo '<p>' . $my_field1 . '</p>';
+}
+if ($my_field2) {
+  echo '<p>' . $my_field2 . '</p>';
+}
+if ($my_field3) {
+  echo '<p>' . $my_field3 . '</p>';
+}
+?>
