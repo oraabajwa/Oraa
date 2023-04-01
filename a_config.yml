@@ -1,6 +1,7 @@
 # Site settings
 name: Oraa
 description: A GitHub repository for Oraa.
+baseurl: /
 
 # Build settings
 theme: jekyll-theme-minimal
