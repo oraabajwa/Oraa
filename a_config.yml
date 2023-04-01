@@ -1,0 +1,11 @@
+# Site settings
+name: Oraa
+description: A GitHub repository for Oraa.
+
+# Build settings
+theme: jekyll-theme-minimal
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
